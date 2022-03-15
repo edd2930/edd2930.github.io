@@ -313,11 +313,7 @@ header {
 }
 
 /* My Services Section */
-@media (max-width: 600px) {
-  .my-services {
-    background-color: black;
-  }
-}
+
 .my-services {
   background-color: rgba(45, 49, 51, 255);
   background-image: url(../logo2.jpg);
@@ -326,7 +322,11 @@ header {
   color: var(--clr-light);
   text-align: center;
 }
-
+@media (max-width: 600px) {
+  .my-services {
+    background-image: none;
+  }
+}
 .section_title_services {
   color: var(--clr-accent);
   position: relative;
