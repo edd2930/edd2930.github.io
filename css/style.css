@@ -315,18 +315,11 @@ header {
 /* My Services Section */
 
 .my-services {
-  background-color: rgba(45, 49, 51, 255);
-  background-image: url(../logo2.jpg);
-  background-size: 50%;
-  background-blend-mode: multiply;
+  background-color: var(--clr-dark);
   color: var(--clr-light);
   text-align: center;
 }
-@media (max-width: 600px) {
-  .my-services {
-    background-image: none;
-  }
-}
+
 .section_title_services {
   color: var(--clr-accent);
   position: relative;
