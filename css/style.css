@@ -14,7 +14,7 @@
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #5bb2fe;
-  --clr-accent2: #F19A38
+  --clr-accent2: #f19a38;
 
   --fs-h1: 6rem;
   --fs-h2: 4rem;
@@ -25,15 +25,41 @@
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 400px) {
   :root {
-    --fs-h1: 4rem;
-    --fs-h2: 3rem;
-    --fs-h3: 2rem;
-    --fs-body: 1.75rem;
+    --fs-h1: 5rem;
+    --fs-h2: 4rem;
+    --fs-h3: 3rem;
+    --fs-body: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .portfolio_img {
+    display: none;
   }
 }
 
+@media (max-width: 500px) {
+  .about-me_img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .small_scrn_text {
+    display: inline-block;
+  }
+}
+
+.small_scrn_text {
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  .small_scrn_text {
+    display: none;
+  }
+}
 /* General Styles */
 html {
   scroll-behavior: smooth;

@@ -16,7 +16,7 @@ window.onscroll = function() {myFunction()};
 
 var nav = document.getElementById("nav-toggle");
 
-var sticky = nav.offsetTop;
+var sticky = navToggle.offsetTop;
 
 function myFunction() {
     if  (window.pageYOffset >= sticky) {
