@@ -315,7 +315,7 @@ header {
 /* My Services Section */
 @media (max-width: 600px) {
   .my-services {
-    background-image: none;
+    background-color: black;
   }
 }
 .my-services {
