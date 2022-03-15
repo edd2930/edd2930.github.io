@@ -313,9 +313,13 @@ header {
 }
 
 /* My Services Section */
-
+@media (max-width: 600px) {
+  .my-services {
+    background-image: none;
+  }
+}
 .my-services {
-  background-color: var(--clr-dark);
+  background-color: rgba(45, 49, 51, 255);
   background-image: url(../logo2.jpg);
   background-size: 50%;
   background-blend-mode: multiply;
